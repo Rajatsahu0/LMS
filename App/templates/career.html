@@ -1,0 +1,108 @@
+{% extends 'master.html' %}
+{% block body %}
+   <div id="banner-area" class="banner-area tw-analysis-area" style="background-image:url(static/images/banner/banner5.jpg)">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <div class="banner-heading">
+                  <h1 class="banner-title">Career</h1>
+                  <ol class="breadcrumb">
+                     <li>Home</li>
+                     <li><a href="{% url 'career' %}">Career</a></li>
+                  </ol>
+               </div>
+            </div>
+            <!-- Col end -->
+         </div>
+         <!-- Row end -->
+      </div>
+      <!-- Container end -->
+   </div>
+   <!-- Banner area end -->
+
+   <section id="tw-contact-us" class="tw-contact-us bg-offwhite">
+      <div class="container">
+         <div class="row">
+		    <div class="col-lg-12">
+            <div class="col">
+               <div class="section-heading text-center">
+                  <h2>
+                     <small>Submit your resume</small>
+                     Join Our <span>Team</span>
+                  </h2>
+                  <span class="animate-border border-ash ml-auto mr-auto tw-mt-20 tw-mb-40"></span>
+               </div>
+            </div>
+         <!-- Row End -->
+         <div class="contact-us-form">
+            <form id="contact-form" class="contact-form" action="#" method="POST">
+               {% csrf_token %}
+               <div class="error-container"></div>
+               <div class="row">
+                  <div class="col-lg-6">
+                     <div class="form-group">
+                        <input class="form-control form-name" name="name" id="name" placeholder="Enter Name" type="text" required="">
+                     </div>
+                  </div>
+                  <!-- Col end -->
+                  <div class="col-lg-6">
+                     <div class="form-group">
+                        <input class="form-control form-phone" name="phone" id="phone" placeholder="Enter Phone" type="phone">
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="form-group">
+                        <input class="form-control form-email" name="email" id="email" placeholder="Enter Email" type="email" required="">
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="form-group">
+					 
+					     
+                       <select class="form-control"  name="select" id="select" type="select">
+							<option value="Digital Marketing">Select Job Role</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                        <option value="Web Designer">Web Designer</option>
+                        <option value="Php Developer">Php Developer</option>
+					       <option value="Marketing Executive">Marketing Executive</option>
+						   <option value="Graphic Designer">Graphic Designer</option>
+						    <option value="Other">Other</option>
+							</label>
+                       </select>
+                     </div>
+                  </div>
+				   
+				  
+				    
+                  <div class="col-lg-12">
+                     <div class="form-group">
+                        <textarea class="form-control form-message required-field" id="message" name='message' placeholder="Your cover letter/message sent to the employer" rows="5"></textarea>
+                     </div>
+                  </div>
+                  <!-- Col 12 end -->
+				  
+				  <div class="col-lg-12">
+				    <div class="form-group">
+                  <label for="form_attachment">C/V Upload</label><br>
+                  <input id="form_attachment" name="form_attachment" class="file" type="file" multiple data-show-upload="false" data-show-caption="true"><br>
+                  <small>Maximum upload file size: 12 MB</small>
+                </div>
+				  </div>
+                  <!-- Col 12 end -->
+               
+               <div class="text-left tw-mb-40">
+                  <button class="btn btn-primary tw-mt-20 tw-ml-15" type="submit">APPLY NOW</button>
+               </div>
+			    </div>
+               <!-- Form row end -->
+            </form>
+            <!-- Form end -->
+         </div>
+         <!-- Contact us form end -->
+		 <!-- Col End -->
+         </div>
+      </div>
+      <!-- Container End -->
+   </section>
+   <!-- Contact End -->
+{% endblock %}

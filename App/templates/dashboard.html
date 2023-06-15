@@ -1,0 +1,89 @@
+{% extends 'master.html' %}
+{% block body %}
+{% load static %}
+
+<div id="banner-area" class="banner-area tw-analysis-area" style="background-image:url(static/images/banner/banner5.jpg)">
+    <div class="container">
+       <div class="row">
+          <div class="col-sm-12">
+             <div class="banner-heading">
+                <h1 class="banner-title">Profile</h1>
+                <ol class="breadcrumb">
+                   <li>Home</li>
+                   <li><a href="{% url 'dashboard' %}">Profile</a></li>
+                </ol>
+             </div>
+          </div>
+          <!-- Col end -->
+       </div>
+       <!-- Row end -->
+    </div>
+    <!-- Container end -->
+ </div>
+ <!-- Banner area end -->
+    
+       <div class="contact-us-form container">
+          <form id="contact-form" class="contact-form" action="#" method="post">
+            {% csrf_token %}
+            <div class="text-right tw-mb-40">
+                <button class="btn btn-primary tw-mt-20 tw-ml-15" type="submit" value="submit">Save</button>
+             </div>
+             {% comment %} <div class="error-container"></div> {% endcomment %}
+             <div class="row">
+                <div class="col-lg-6">
+                   <div class="form-group">
+                      <input class="form-control form-name" name="name" id="name" placeholder="Enter Name" type="text" required="" value="{{user.username}}">
+                   </div>
+                </div>
+                <!-- Col end -->
+                <div class="col-lg-6">
+                   <div class="form-group">
+                      <input class="form-control form-phone" name="phone" id="phone" placeholder="Enter Phone" type="phone" value="{{user.phone}}">
+                   </div>
+                </div>
+                <div class="col-lg-6">
+                   <div class="form-group">
+                      <input class="form-control form-email" name="email" id="email" placeholder="Enter Email" type="email" required="" value="{{user.email}}">
+                   </div>
+                </div>
+                <div class="col-lg-6">
+                   <div class="form-group">
+                   
+                       
+                     <select class="form-control"  name="select" id="select" type="select">
+                          <option value="Digital Marketing">Select Job Role</option>
+                      <option value="Digital Marketing">Digital Marketing</option>
+                      <option value="Web Designer">Web Designer</option>
+                      <option value="Php Developer">Php Developer</option>
+                         <option value="Business Development Manager">Business Development Manager</option>
+                         <option value="Marketing Executive">Marketing Executive</option>
+                         <option value="Graphic Designer">Graphic Designer</option>
+                          <option value="Other">Other</option>
+                          </label>
+                     </select>
+                   </div>
+                </div>
+                 
+                
+                  
+                <div class="col-lg-12">
+                   <div class="form-group">
+                      <textarea class="form-control form-message required-field" id="message" placeholder="Your cover letter/message sent to the employer" rows="5"></textarea>
+                   </div>
+                </div>
+                
+             <!-- Form row end -->
+          </form>
+          
+          <!-- Form end -->
+       </div>
+       <div>
+        <br><br>
+    <br><br>
+    </div>
+       <!-- Contact us form end -->
+       <!-- Col End -->
+    </div>
+
+
+{% endblock body %}

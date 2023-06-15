@@ -1,0 +1,209 @@
+<body style="overflow: auto;"><noscript><iframe height=0 width=0
+            style=display:none;visibility:hidden></iframe></noscript>
+    <div id="main">
+        <div>
+            <div class="sl-playground-wrapper">
+                <div class="sl-language-types">
+                    <div class="sl-language-types__close-icon">
+                        <div class="icon"><svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                role="img" width="16" height="16" class="sol-icon">
+                                <g id="icon-chevron-left-small">
+                                    <path id="Vector" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M6.76778 8.35355L11.7071 13.2929C11.9024 13.4882 11.9024 13.8047 11.7071 14L11 14.7071C10.8047 14.9024 10.4882 14.9024 10.2929 14.7071L3.93935 8.35355L10.2929 2C10.4882 1.80474 10.8047 1.80474 11 2L11.7071 2.70711C11.9024 2.90237 11.9024 3.21895 11.7071 3.41422L6.76778 8.35355Z"
+                                        fill="currentColor"></path>
+                                </g>
+                            </svg></div>
+                    </div>
+                    <div class="sl-language-types__content">
+                        <p class="sl-language-types__title">What language do you want to use for coding?</p>
+                        <div class="sl-language-types__types-wrapper"><a
+                                style="--box-shadow-color:rgba(229, 77, 38, 0.45);background-color:#e54d26"
+                                class="sl-language-types__item" href="/compiler-playground/web">Web</a><a
+                                style="--box-shadow-color:rgba(12, 98, 145, 0.45);background-color:#0c6291"
+                                class="sl-language-types__item" href="/compiler-playground/cpp">C++</a><a
+                                style="--box-shadow-color:rgba(96, 133, 188, 0.45);background-color:#6085bc"
+                                class="sl-language-types__item" href="/compiler-playground/php">PHP</a><a
+                                style="--box-shadow-color:rgba(250, 151, 34, 0.45);background-color:#fa9722"
+                                class="sl-language-types__item" href="/compiler-playground/java">Java</a><a
+                                style="--box-shadow-color:rgba(141, 185, 62, 0.45);background-color:#8db93e"
+                                class="sl-language-types__item" href="/compiler-playground/nodejs">Node js</a><a
+                                style="--box-shadow-color:rgba(101, 47, 145, 0.45);background-color:#652f91"
+                                class="sl-language-types__item" href="/compiler-playground/csharp">C#</a><a
+                                style="--box-shadow-color:rgba(224, 78, 63, 0.45);background-color:#e04e3f"
+                                class="sl-language-types__item" href="/compiler-playground/ruby">Ruby</a><a
+                                style="--box-shadow-color:rgba(33, 150, 243, 0.45);background-color:#2196f3"
+                                class="sl-language-types__item" href="/compiler-playground/c">C</a><a
+                                style="--box-shadow-color:rgba(242, 95, 51, 0.45);background-color:#f25f33"
+                                class="sl-language-types__item" href="/compiler-playground/swift">Swift</a><a
+                                style="--box-shadow-color:rgba(51, 150, 215, 0.45);background-color:#3396d7"
+                                class="sl-language-types__item" href="/compiler-playground/kotlin">Kotlin</a><a
+                                style="--box-shadow-color:rgba(19, 76, 122, 0.45);background-color:#134c7a"
+                                class="sl-language-types__item" href="/compiler-playground/python">Python</a><a
+                                style="--box-shadow-color:rgba(65, 98, 171, 0.45);background-color:#4162ab"
+                                class="sl-language-types__item" href="/compiler-playground/jquery">jQuery</a><a
+                                style="--box-shadow-color:rgba(65, 98, 171, 0.45);background-color:#00acd7"
+                                class="sl-language-types__item" href="/compiler-playground/go">Go</a><a
+                                style="--box-shadow-color:rgba(65, 98, 171, 0.45);background-color:#2066b8"
+                                class="sl-language-types__item" href="/compiler-playground/r">R</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script id="__LOADABLE_REQUIRED_CHUNKS__"
+        type="application/json">[1586,4584,7948,2124,4091,6771,1354,3599,1638,4976,6582,3066,7243,29,4246,7002,4060,641,9473,7100,3825,6006,2015]</script>
+    <script id="__LOADABLE_REQUIRED_CHUNKS___ext"
+        type="application/json">{"namedChunks":["MicroFrontends-Home-Home","MicroFrontends-User-User","MicroFrontends-Profile-Profile","MicroFrontends-Learn-Learn","Pages-TermsOfUse-TermsOfUse","MicroFrontends-Playground-Playground","MicroFrontends-PageNotFound-PageNotFound","MicroFrontends-Error-Error","MicroFrontends-LearnEngine-LearnEngine","MicroFrontends-Blog-Blog","Pages-NotAllowedFeature-NotAllowedFeature","Pages-PrivacyPolicy-PrivacyPolicy","Pages-FAQ-FAQ","Pages-Contact-Contact"]}</script>
+    <script async="" data-chunk="main" src="https://www.sololearn.com/nodessr/web/main-bundle-6917ede2.js"
+        type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-Home-Home"
+        src="https://www.sololearn.com/nodessr/web/1586-bundle-48ab9be8.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-Home-Home"
+        src="https://www.sololearn.com/nodessr/web/4584-bundle-820cbd52.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-User-User"
+        src="https://www.sololearn.com/nodessr/web/7948-bundle-9e6429b3.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-Profile-Profile"
+        src="https://www.sololearn.com/nodessr/web/2124-bundle-f31f29d4.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-Profile-Profile"
+        src="https://www.sololearn.com/nodessr/web/4091-bundle-fbc40a57.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-Learn-Learn"
+        src="https://www.sololearn.com/nodessr/web/6771-bundle-71c6df10.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-Learn-Learn"
+        src="https://www.sololearn.com/nodessr/web/1354-bundle-383ea55a.js" type="text/javascript"></script>
+    <script async="" data-chunk="Pages-TermsOfUse-TermsOfUse"
+        src="https://www.sololearn.com/nodessr/web/3599-bundle-8e549cd7.js" type="text/javascript"></script>
+    <script async="" data-chunk="Pages-TermsOfUse-TermsOfUse"
+        src="https://www.sololearn.com/nodessr/web/1638-bundle-6e5e2d24.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-Playground-Playground"
+        src="https://www.sololearn.com/nodessr/web/4976-bundle-34d308d5.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-Playground-Playground"
+        src="https://www.sololearn.com/nodessr/web/6582-bundle-0e860250.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-Playground-Playground"
+        src="https://www.sololearn.com/nodessr/web/3066-bundle-81d53cfd.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-Playground-Playground"
+        src="https://www.sololearn.com/nodessr/web/7243-bundle-13ea5895.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-PageNotFound-PageNotFound"
+        src="https://www.sololearn.com/nodessr/web/29-bundle-bdcbbacc.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-Error-Error"
+        src="https://www.sololearn.com/nodessr/web/4246-bundle-bfcfe9a4.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-LearnEngine-LearnEngine"
+        src="https://www.sololearn.com/nodessr/web/7002-bundle-40816422.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-LearnEngine-LearnEngine"
+        src="https://www.sololearn.com/nodessr/web/4060-bundle-ece91fa6.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-Blog-Blog"
+        src="https://www.sololearn.com/nodessr/web/641-bundle-f6b20e3a.js" type="text/javascript"></script>
+    <script async="" data-chunk="MicroFrontends-Blog-Blog"
+        src="https://www.sololearn.com/nodessr/web/9473-bundle-13dfb52c.js" type="text/javascript"></script>
+    <script async="" data-chunk="Pages-NotAllowedFeature-NotAllowedFeature"
+        src="https://www.sololearn.com/nodessr/web/7100-bundle-db200b04.js" type="text/javascript"></script>
+    <script async="" data-chunk="Pages-PrivacyPolicy-PrivacyPolicy"
+        src="https://www.sololearn.com/nodessr/web/3825-bundle-633eb02d.js" type="text/javascript"></script>
+    <script async="" data-chunk="Pages-FAQ-FAQ" src="https://www.sololearn.com/nodessr/web/6006-bundle-4ba1d671.js"
+        type="text/javascript"></script>
+    <script async="" data-chunk="Pages-Contact-Contact"
+        src="https://www.sololearn.com/nodessr/web/2015-bundle-83720910.js" type="text/javascript"></script>
+    <script defer=""
+        src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+        integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+        data-cf-beacon="{&quot;rayId&quot;:&quot;74a664d8faa22e4c&quot;,&quot;token&quot;:&quot;3cd70a6c7768490094eebf19abc1a33f&quot;,&quot;version&quot;:&quot;2022.8.1&quot;,&quot;si&quot;:100}"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript"
+        id="">!function (a, e, f, k, h, g, c, b, d) {
+                a.AppsFlyerSdkObject = h; a.AF = a.AF || function () { (a.AF.q = a.AF.q || []).push([Date.now()].concat(Array.prototype.slice.call(arguments))) }; a.AF.id = a.AF.id || c; a.AF.plugins = {}; b = e.createElement(f); d = e.getElementsByTagName(f)[0]; b.async = 1; b.src = "https://websdk.appsflyer.com?" + (0 < g.length ? "st\x3d" + g.split(",").sort().join(",") + "\x26" : "") + (0 < c.length ? "af_id\x3d" + c : ""); b.addEventListener("load", function () { window.AFLoaded = !0; window.dispatchEvent(new Event("AFLoaded")) }); d.parentNode.insertBefore(b,
+                    d)
+            }(window, document, "script", 0, "AF", "pba,banners", { pba: { webAppId: "d399f690-c1d5-4c13-9afb-70e03be935be" }, banners: { key: "fb044831-3f66-4a09-ac34-600b28c710ab" } }); AF("banners", "showBanner");</script>
+
+    <script type="text/javascript"
+        id="">!function (b, e, f, g, a, c, d) { b.fbq || (a = b.fbq = function () { a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments) }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"); function getFingerprint() { var b = document.cookie.match(RegExp("(^| )fngprntId\x3d([^;]+)")); return b && b[2] ? b[2] : null }
+            function initPixel(b) { fbq("init", "908512509704536", { extern_id: b }); fbq("track", "PageView") } var fingerprint = getFingerprint(); fingerprint ? initPixel(fingerprint) : document.addEventListener("fngprntDefined", function () { initPixel(getFingerprint()) });</script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=908512509704536&amp;ev=PageView&amp;noscript=1"></noscript>
+    <script type="text/javascript"
+        id="">window.iterateSettings = { apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55X2lkIjoiNjMwNWU2OGYzMTVhM2YwMDAxNGNlMmQzIiwiaWF0IjoxNjYxMzMxMDg4fQ.iLv5FEefI947k5Q30ROd-QGpZnDqcrlzIu-_QqU5eoU" };
+            (function (a, c, g, h, k) { function f() { var d = c.getElementsByTagName(g)[0]; var e = c.createElement(g); e.id = h; e.async = 1; e.src = "https://platform.iteratehq.com/loader.js"; d.parentNode.insertBefore(e, d) } if (!c.getElementById(h)) { a.IterateObjectName = k; var b = function () { b.c(arguments) }; b.q = []; b.c = function (d) { b.q.push(d) }; a[k] = b; "complete" === c.readyState ? f() : a.attachEvent ? a.attachEvent("onload", f) : a.addEventListener("load", f, !1) } })(window, document, "script", "iterate-js", "Iterate");</script>
+    <iframe name="__uspapiLocator" tabindex="-1" role="presentation" aria-hidden="true" title="Blank"
+        style="display: none; position: absolute; width: 1px; height: 1px; top: -9999px;"></iframe><iframe tabindex="-1"
+        role="presentation" aria-hidden="true" title="Blank" src="https://consentcdn.cookiebot.com/sdk/bc-v4.min.html"
+        style="position: absolute; width: 1px; height: 1px; top: -9999px;"></iframe><svg id="slIconsSvg"
+        style="position: absolute; visibility: hidden; width: 0px; height: 0px;">
+        <symbol id="close" viewBox="0 0 16 16" style="fill: currentColor">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M5.87879 8.00011L0.939453 3.06077L3.06077 0.939453L8.00011 5.87879L12.9395 0.939453L15.0608 3.06077L10.1214 8.00011L15.0608 12.9395L12.9395 15.0608L8.00011 10.1214L3.06077 15.0608L0.939453 12.9395L5.87879 8.00011Z">
+            </path>
+        </symbol>
+        <symbol id="closeV2" viewBox="0 0 10 11" style="fill: currentColor">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M5.00008 6.62132L8.43942 10.0607C8.63468 10.2559 8.95126 10.2559 9.14652 10.0607L9.85363 9.35355C10.0489 9.15829 10.0489 8.84171 9.85363 8.64645L6.41429 5.20711L9.85363 1.76777C10.0489 1.5725 10.0489 1.25592 9.85363 1.06066L9.14652 0.353553C8.95126 0.158291 8.63468 0.158291 8.43941 0.353553L5.00008 3.79289L1.56074 0.353553C1.36547 0.158291 1.04889 0.158291 0.853629 0.353553L0.146522 1.06066C-0.04874 1.25592 -0.04874 1.5725 0.146522 1.76777L3.58586 5.20711L0.146522 8.64645C-0.0487405 8.84171 -0.04874 9.15829 0.146522 9.35355L0.853629 10.0607C1.04889 10.2559 1.36547 10.2559 1.56074 10.0607L5.00008 6.62132Z">
+            </path>
+        </symbol>
+        <symbol id="help" viewBox="0 0 16 16">
+            <path
+                d="M8 0C3.5888 0 0 3.5888 0 8C0 12.4112 3.5888 16 8 16C12.4112 16 16 12.4112 16 8C16 3.5888 12.4112 0 8 0ZM8.8 12.8H7.2V11.2H8.8V12.8ZM9.5808 8.892C9.424 9.0184 9.2728 9.1392 9.1528 9.2592C8.8264 9.5848 8.8008 9.8808 8.8 9.8936V10H7.2V9.8664C7.2 9.772 7.2232 8.9248 8.0208 8.1272C8.1768 7.9712 8.3704 7.8128 8.5736 7.648C9.1608 7.172 9.5464 6.8248 9.5464 6.3464C9.5371 5.94226 9.37 5.5578 9.08085 5.27529C8.7917 4.99279 8.40346 4.83467 7.99921 4.83478C7.59496 4.83488 7.2068 4.9932 6.9178 5.27585C6.62879 5.55851 6.46189 5.94305 6.4528 6.3472H4.8528C4.8528 4.612 6.2648 3.2 8 3.2C9.7352 3.2 11.1472 4.612 11.1472 6.3472C11.1472 7.6248 10.204 8.3872 9.5808 8.892Z"
+                fill="#6B7F99"></path>
+        </symbol>
+        <symbol id="settings" viewBox="0 0 16 16">
+            <path
+                d="M15.7866 6.78405L13.9999 6.25072C13.8764 5.81942 13.7065 5.40277 13.4933 5.00806L14.3679 3.37073C14.4007 3.30893 14.4128 3.23819 14.4022 3.16902C14.3916 3.09984 14.359 3.03592 14.3093 2.98673L13.0346 1.70674C12.9854 1.65696 12.9215 1.62437 12.8523 1.6138C12.7831 1.60324 12.7124 1.61525 12.6506 1.64807L11.0239 2.5174C10.6253 2.29376 10.2032 2.11489 9.76528 1.98407L9.23195 0.218747C9.20939 0.15369 9.16677 0.0974673 9.11023 0.058173C9.05368 0.0188787 8.98613 -0.00146092 8.91729 8.16896e-05H7.11463C7.04537 0.000404127 6.97803 0.02282 6.92239 0.0640671C6.86676 0.105314 6.82573 0.16324 6.8053 0.229414L6.27197 1.9894C5.83038 2.11953 5.40465 2.2984 5.00264 2.52274L3.40265 1.65874C3.34085 1.62592 3.27011 1.6139 3.20093 1.62447C3.13176 1.63504 3.06784 1.66763 3.01865 1.71741L1.72266 2.9814C1.67288 3.03058 1.64029 3.09451 1.62972 3.16368C1.61915 3.23286 1.63117 3.30359 1.66399 3.3654L2.52799 4.96539C2.30402 5.3657 2.12515 5.78963 1.99466 6.22938L0.229332 6.76271C0.163158 6.78315 0.105232 6.82417 0.0639854 6.87981C0.0227383 6.93544 0.000322438 7.00279 0 7.07205V8.8747C0.000322438 8.94396 0.0227383 9.01131 0.0639854 9.06694C0.105232 9.12258 0.163158 9.1636 0.229332 9.18403L2.00532 9.71737C2.13724 10.1498 2.31608 10.5665 2.53865 10.96L1.66399 12.6347C1.63117 12.6965 1.61915 12.7672 1.62972 12.8364C1.64029 12.9056 1.67288 12.9695 1.72266 13.0187L2.99732 14.2933C3.0465 14.3431 3.11043 14.3757 3.1796 14.3863C3.24877 14.3968 3.31951 14.3848 3.38132 14.352L5.02931 13.472C5.41915 13.6824 5.83038 13.8504 6.25597 13.9733L6.7893 15.7707C6.80973 15.8368 6.85076 15.8948 6.90639 15.936C6.96203 15.9773 7.02937 15.9997 7.09863 16H8.90129C8.97055 15.9997 9.03789 15.9773 9.09353 15.936C9.14916 15.8948 9.19018 15.8368 9.21062 15.7707L9.74395 13.968C10.1659 13.8445 10.5735 13.6764 10.9599 13.4667L12.6186 14.352C12.6804 14.3848 12.7511 14.3968 12.8203 14.3863C12.8895 14.3757 12.9534 14.3431 13.0026 14.2933L14.2773 13.0187C14.327 12.9695 14.3596 12.9056 14.3702 12.8364C14.3808 12.7672 14.3687 12.6965 14.3359 12.6347L13.4506 10.9814C13.6625 10.5935 13.8324 10.184 13.9573 9.76003L15.7546 9.2267C15.8208 9.20626 15.8787 9.16524 15.9199 9.10961C15.9612 9.05397 15.9836 8.98663 15.9839 8.91737V7.09871C15.9871 7.03239 15.9698 6.9667 15.9346 6.91045C15.8993 6.8542 15.8477 6.81009 15.7866 6.78405ZM8.01596 10.9334C7.4358 10.9334 6.86868 10.7613 6.38629 10.439C5.90391 10.1167 5.52794 9.65857 5.30593 9.12257C5.08391 8.58658 5.02582 7.99679 5.139 7.42778C5.25219 6.85877 5.53156 6.3361 5.94179 5.92587C6.35202 5.51564 6.87469 5.23627 7.4437 5.12309C8.01271 5.0099 8.6025 5.06799 9.13849 5.29001C9.67449 5.51202 10.1326 5.88799 10.4549 6.37038C10.7772 6.85276 10.9493 7.41989 10.9493 8.00004C10.9493 8.77801 10.6402 9.52411 10.0901 10.0742C9.54002 10.6243 8.79392 10.9334 8.01596 10.9334Z"
+                fill="#6B7F99"></path>
+        </symbol>
+        <symbol id="logOut" viewBox="0 0 19 16">
+            <path
+                d="M11.5556 12.4444V14.2222C11.5556 14.6937 11.3683 15.1459 11.0349 15.4793C10.7015 15.8127 10.2493 16 9.77778 16H1.77778C1.30628 16 0.854097 15.8127 0.520699 15.4793C0.187301 15.1459 0 14.6937 0 14.2222V1.77778C0 1.30628 0.187301 0.854097 0.520699 0.520699C0.854097 0.187301 1.30628 0 1.77778 0H9.77778C10.2493 0 10.7015 0.187301 11.0349 0.520699C11.3683 0.854097 11.5556 1.30628 11.5556 1.77778V3.55556H9.77778V1.77778H1.77778V14.2222H9.77778V12.4444H11.5556ZM13.7778 3.11111L12.5209 4.368L15.264 7.11111H6.22222V8.88889H15.264L12.5209 11.632L13.7778 12.8889L18.6667 8L13.7778 3.11111Z"
+                fill="#6B7F99"></path>
+        </symbol>
+        <symbol id="avatarFill" viewBox="0 0 80 80" style="fill: currentColor">
+            <path
+                d="M67.3411 61.85C63.7911 56.13 55.9761 50 40.0011 50C24.0261 50 16.2161 56.125 12.6611 61.85C15.9365 65.9562 20.0957 69.271 24.8292 71.5477C29.5627 73.8244 34.7486 75.0044 40.0011 75C45.2537 75.0044 50.4396 73.8244 55.1731 71.5477C59.9066 69.271 64.0657 65.9562 67.3411 61.85V61.85Z">
+            </path>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M40 45C43.9782 45 47.7936 43.4196 50.6066 40.6066C53.4196 37.7936 55 33.9782 55 30C55 26.0218 53.4196 22.2064 50.6066 19.3934C47.7936 16.5804 43.9782 15 40 15C36.0218 15 32.2064 16.5804 29.3934 19.3934C26.5804 22.2064 25 26.0218 25 30C25 33.9782 26.5804 37.7936 29.3934 40.6066C32.2064 43.4196 36.0218 45 40 45V45Z">
+            </path>
+        </symbol>
+        <symbol id="starPro" viewBox="0 0 12 12">
+            <circle cx="6" cy="6" r="5.5" fill="#ECAA00" stroke="white"></circle>
+            <path
+                d="M8.80607 5.11277L7.00739 4.83903L6.20333 3.13205C6.18137 3.08531 6.14524 3.04748 6.10061 3.02448C5.98868 2.96662 5.85266 3.01484 5.7967 3.13205L4.99264 4.83903L3.19395 5.11277C3.14437 5.12019 3.09903 5.14467 3.06431 5.18176C3.02235 5.22693 2.99922 5.2877 3.00002 5.35071C3.00082 5.41372 3.02547 5.47383 3.06856 5.51782L4.36994 6.84646L4.06248 8.72258C4.05527 8.76622 4.05988 8.8111 4.07579 8.85214C4.0917 8.89318 4.11828 8.92873 4.1525 8.95476C4.18672 8.98078 4.22722 8.99625 4.26941 8.9994C4.3116 9.00255 4.35379 8.99326 4.39119 8.97258L6.00001 8.08682L7.60884 8.97258C7.65276 8.99706 7.70377 9.00522 7.75265 8.99632C7.87592 8.97406 7.9588 8.85166 7.93755 8.72258L7.63009 6.84646L8.93146 5.51782C8.96689 5.48147 8.99026 5.43399 8.99735 5.38206C9.01648 5.25224 8.93005 5.13206 8.80607 5.11277Z"
+                fill="#F6E9C8"></path>
+        </symbol>
+        <symbol id="bit1Cube" viewBox="0 0 16 20">
+            <path
+                d="M16 5.89733C15.9997 5.07757 15.5604 4.32072 14.8488 3.91384C14.8489 3.91392 14.8486 3.91375 14.8488 3.91384L9.13403 0.648266C8.43133 0.246721 7.56867 0.246721 6.86597 0.648266L1.15168 3.91357C1.15179 3.91351 1.15158 3.91363 1.15168 3.91357C0.439695 4.32057 0 5.078 0 5.89813V13.5309C0 14.3506 0.438864 15.1074 1.15011 15.5146C1.15063 15.5149 1.15116 15.5152 1.15168 15.5155L6.86597 18.7808C6.86664 18.7812 6.86731 18.7816 6.86799 18.782C7.56968 19.182 8.43044 19.182 9.13212 18.7819C9.13276 18.7815 9.13339 18.7812 9.13403 18.7808L14.8483 15.5155C14.8489 15.5152 14.8494 15.5148 14.85 15.5145C15.5612 15.1073 16 14.3505 16 13.5309V5.89733C16 5.89706 16 5.89759 16 5.89733Z"
+                fill="#8153E1"></path>
+            <path
+                d="M16 5.89551V13.5305C16 14.3507 15.5605 15.1081 14.8483 15.515L9.13403 18.7803C8.78268 18.9811 8.39134 19.0815 8 19.0815V9.14265L15.69 4.74835C15.8893 5.09097 15.9996 5.48534 16 5.89551Z"
+                fill="#AB88F3"></path>
+            <path
+                d="M15.6877 4.7488L7.99764 9.14311L0.307617 4.7488C0.506474 4.40696 0.793953 4.11664 1.14932 3.91357L6.86361 0.648266C7.56631 0.246721 8.42897 0.246721 9.13167 0.648266L14.846 3.91357C15.2013 4.11664 15.4888 4.40696 15.6877 4.7488Z"
+                fill="#D4CCF5"></path>
+        </symbol>
+        <symbol id="simpleStar" viewBox="0 0 12 12" style="fill: currentColor">
+            <path
+                d="M11.6121 4.22554L8.01478 3.67806L6.40666 0.264102C6.36274 0.170629 6.29048 0.0949614 6.20122 0.0489671C5.97736 -0.0667604 5.70533 0.0296792 5.59339 0.264102L3.98528 3.67806L0.38791 4.22554C0.288731 4.24038 0.198053 4.28934 0.128627 4.36352C0.0446959 4.45386 -0.00155415 4.5754 3.98784e-05 4.70142C0.0016339 4.82745 0.0509416 4.94766 0.137128 5.03563L2.73987 7.69291L2.12496 11.4452C2.11054 11.5324 2.11976 11.6222 2.15159 11.7043C2.18341 11.7864 2.23655 11.8575 2.305 11.9095C2.37344 11.9616 2.45444 11.9925 2.53882 11.9988C2.6232 12.0051 2.70757 11.9865 2.78238 11.9452L6.00003 10.1736L9.21768 11.9452C9.30553 11.9941 9.40754 12.0104 9.5053 11.9926C9.75183 11.9481 9.9176 11.7033 9.8751 11.4452L9.26019 7.69291L11.8629 5.03563C11.9338 4.96293 11.9805 4.86798 11.9947 4.76412C12.033 4.50447 11.8601 4.26412 11.6121 4.22554Z">
+            </path>
+        </symbol>
+        <symbol id="backLeft" viewBox="0 0 11 18">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8.87893 0L10.9674 2.10181L4.16696 9.01145L11 15.8881L8.92152 18L0 9.02153L8.87893 0Z"
+                fill="#6B7F99"></path>
+        </symbol>
+    </svg>
+    <div>
+        <div class="grecaptcha-badge" data-style="bottomright"
+            style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
+            <div class="grecaptcha-logo"><iframe title="reCAPTCHA"
+                    src="https://www.google.com/recaptcha/enterprise/anchor?ar=1&amp;k=6Lfk-TIeAAAAAHHyvt9KCccPBRMcxSgDJ_YvPNuu&amp;co=aHR0cHM6Ly93d3cuc29sb2xlYXJuLmNvbTo0NDM.&amp;hl=en&amp;v=6yxSRAfz8mwoKsUnPalhIcpm&amp;size=invisible&amp;cb=arpzauccv9li"
+                    width="256" height="60" role="presentation" name="a-rdr7jg1eotlc" frameborder="0" scrolling="no"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+            </div>
+            <div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response"
+                class="g-recaptcha-response"
+                style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+        </div><iframe style="display: none;"></iframe>
+    </div>
+    <div id="fb-root" class=" fb_reset">
+        <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+            <div></div>
+        </div>
+    </div>
+</body>

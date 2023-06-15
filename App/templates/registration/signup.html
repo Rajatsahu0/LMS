@@ -1,0 +1,80 @@
+{% extends 'master.html' %}
+{% block body %}
+
+<section id="form tw-contact-us bg-offwhite">
+	<!--form-->
+	<div class="container ">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="col">
+					<div class="section-heading text-center">
+						<h2>
+							<small>Enter Your Details</small>
+							Join Our <span>Team</span>
+						</h2>
+						<span class="animate-border border-ash ml-auto mr-auto tw-mt-20 tw-mb-40"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section>
+			<div class="col-sm-4 col-sm-offset-1">
+				<div class="login-form section-heading text-left contact-form ">
+					<!--login form-->
+					<h2>
+						New user <span>Signup</span>
+
+					</h2><br>
+					{% comment %} <form action="#" method="post" class="contact-form form-name" id='form-group'>
+							{% csrf_token %}
+							{% for field in form %}
+							{{ field.errors }}
+							<p class="form-control form-name">{{ field }}</p>
+							{% endfor %}
+							<button class="btn btn-primary tw-mt-20" >Signup</button><br><hr>
+							<span>Already have an account ?</span>
+							<a href="{% url 'login' %}" style="float:right;">Login</a>
+                        </form>  {% endcomment %}
+						
+					<form action="#" class="contact-form" id="form-group" method="POST">
+						{% csrf_token %}
+						<!-- <label for="name">Name</label><br> 
+						<input class="form-control form-name" type="text" name="name" id="" placeholder="Name" required><br>-->
+						<!-- <label for="username">Username</label><br> -->
+						
+						<input class="form-control" type="text" name="username" id="" placeholder="Username" required><br>
+						<!-- <label for="Gmail">Gmail</label> -->
+						
+						<input class="form-control form-email" type="gmail" name="email" id="" placeholder="Email" required><br>
+						<!-- <label for="password">Password</label> -->
+						
+						<input class="form-control" type="password" name="password1" id="" placeholder="Enter Password" required><br>
+						
+						<input class="form-control" type="password" name="password2" id="" placeholder="Enter Confirm Password" required>
+
+						{% for message in messages %}
+                                {% if message.tags == 'error' %}
+                                    <p style="color:red;">{{message}}</p>
+                                {% elif message.tags == 'info' %}
+                                    <script>
+                                        window.onload = function() {
+                                            alert('{{message}}')
+                                        }
+                                    </script> 
+
+                                    <!-- <br><p style="color:red;">{{message}}</p> -->
+                                 
+                                {% endif%}
+                                {% endfor %}
+						  
+						<button class="btn btn-primary tw-mt-20" type="submit"> Signup</button>
+					</form>
+							<hr>
+							<span>Already have an account ?</span>
+							<a href="{% url 'login' %}" style="float:right;">Login</a>
+				</div>
+			</div>
+
+		</section>
+</section>
+{% endblock %}

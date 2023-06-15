@@ -1,0 +1,405 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    {% load static %}
+
+    <meta name="Robots" content="index, follow">
+    <meta name="author" content="#.com">
+    <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” />
+    <link rel="canonical" href="home">
+    <link rel="alternate" hreflang="x-default" href="home">
+    <!-- Favicon and Touch Icons -->
+    <link href="static/images/logo.jpg" rel="shortcut icon" type="image/png">
+    <!-- Basic Page Needs =====================================-->
+    <meta charset="utf-8">
+    <!-- Mobile Specific Metas ================================-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Site Title- -->
+    <title>Online Education</title>
+    <!-- CSS
+   ==================================================== -->
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="/static/css/font-awesome.min.css" />
+    <!--Animate CSS -->
+    <link rel="stylesheet" href="/static/css/animate.css" />
+    <!-- Iconic Fonts -->
+    <link rel="stylesheet" href="/static/css/icofonts.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="/static/css/owlcarousel.min.css" />
+    <!-- Video Popup -->
+    <link rel="stylesheet" href="/static/css/magnific-popup.css" />
+    <!--Style CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/venobox.css">
+    <!--Responsive CSS -->
+    <link rel="stylesheet" href="static/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+
+    
+    </head>
+
+<body>
+    <!-- header======================-->
+    <header>
+        <div class="tw-head">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <a class="navbar-brand tw-nav-brand" href="home">
+                        <img src="/static/images/logo.jpg" height="100" widht="100" style="border-radius: 100%;">
+                    </a>
+                    <!-- End of Navbar Brand -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- End of Navbar toggler -->
+                    <div class="collapse navbar-collapse justify-content-center active" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto menu-ul">
+                            {% comment %} active {% endcomment %}
+                            <li class="nav-item active"><a class="nav-link " href="{% url 'home' %}">Home</a></li>
+                            <li class="nav-item "><a class="nav-link " href="{% url 'about' %}">About Us</a></li>
+                            <li class="nav-item dropdown tw-megamenu-wrapper">
+                                <a class="nav-link" href="services.html" data-toggle="dropdown">
+                                    Services
+                                    <span class="tw-indicator"><i class="fa fa-angle-down"></i></span></a>
+                                <div id="tw-megamenu" class="dropdown-menu tw-mega-menu">
+                                    <div class="row">
+                                        <div class="col-md-12 col-lg-4 no-padding">
+                                            <ul>
+                                                <li class="tw-megamenu-title">
+                                                    <h3>Web Development</h3>
+                                                </li>
+                                                <li><a href="{% url 'html' %}">HyperText Markup Language (HTML)</a></li>
+                                                <li><a href="{% url 'css' %}">Cascading Style Sheets (CSS)</a></li>
+                                                <li><a href="{% url 'javascript' %}">Javascripts</a></li>
+                                                <li><a href="{% url 'react' %}">React</a></li>
+                                                <li><a href="{% url 'angular' %}">Angular</a></li>
+                                                <li><a href="{% url 'vue' %}">Vue</a></li>
+                                                <li><a href="{% url 'jquery' %}">jQuery</a></li>
+                                                <li><a href="{% url 'swift' %}">Swift</a></li>
+                                            </ul><!-- End UL -->
+                                        </div><!-- End Col -->
+                                        <div class="col-md-12 col-lg-4 no-padding">
+                                            <ul>
+                                                <li class="tw-megamenu-title">
+                                                    <h3>Programming Languages</h3>
+                                                </li>
+
+                                                <li><a href="{% url 'c' %}">C Programming</a></li>
+                                                <li><a href="{% url 'c++' %}">C++ Programming</a></li>
+                                                <li><a href="{% url 'c_sharp' %}">C Sharp (C#)</a></li>
+                                                <li><a href="{% url 'data_structure' %}">Data Structure & Algorithm</a></li>
+                                                <li><a href="{% url 'python' %}">Python</a></li>
+                                                <li><a href="{% url 'java' %}">Java</a></li>
+                                                <li><a href="{% url 'sql' %}">Structured Query Language (SQL)</a></li>
+                                                <li><a href="{% url 'nosql' %}">NoSQL</a></li>
+
+                                            </ul><!-- End UL -->
+                                        </div><!-- End Col -->
+                                        <div class="col-md-12 col-lg-4 no-padding">
+                                            <ul>
+                                                <li class="tw-megamenu-title">
+                                                    <h3>Technologies</h3>
+                                                </li>
+                                                <li><a href="{% url 'competative' %}">Competitive Programming</a></li>
+                                                <li><a href="{% url 'open-sf-dev' %}">Open Source Sofware Development</a></li>
+                                                <li><a href="{% url 'app_dev' %}">Application Development</a></li>
+                                                <li><a href="{% url 'web_dev' %}">Web Development</a></li>
+                                                <li><a href="{% url 'ml' %}">Machine Learing</a></li>
+                                                <li><a href="{% url 'data_science' %}">Date Science</a></li>
+
+
+
+                                            </ul><!-- End Ul -->
+                                        </div><!-- End Col -->
+                                    </div><!-- End Row -->
+                                </div> <!-- End of Mega menu -->
+                            </li><!-- End MegaMenu -->
+                            <!-- End Dropdown -->
+
+                            <!-- <li class="nav-item"><a class="nav-link" href="compiler">Compiler</a></li> -->
+                            <li class="nav-item dropdown tw-megamenu-wrapper">
+                                <a class="nav-link" href="services.html" data-toggle="dropdown">
+                                    Compiler
+                                    <span class="tw-indicator"><i class="fa fa-angle-down"></i></span></a>
+                                <div id="tw-megamenu" class="dropdown-menu tw-mega-menu">
+                                    <div class="row">
+                                        <div class="col-md-12 col-lg-4 no-padding">
+                                            <ul>
+                                                <li class="tw-megamenu-title">
+                                                    <h3>Select Language</h3>
+                                                </li>
+                                                <li><a href="{% url 'c_compiler' %}">C programming</a></li>
+                                                <li><a href="{% url 'cpp_compiler' %}">CPP Programming</a></li>
+                                                <li><a href="{% url 'java_compiler' %}">Java Programming</a></li>
+                                                <li><a href="{% url 'python_compiler' %}">Python Programming</a></li>
+                                                <li><a href="{% url 'javascript_compiler' %}">Javascript Programming</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-12 col-lg-4 no-padding">
+                                            <ul>
+
+                                                <li class="tw-megamenu-title">
+                                                    <h3>More Compilers...</h3>
+                                                    <img src="/App/static/images/banner/coming soon 2.jpg" alt=""
+                                                        height="250px" style="padding-left:50px ;">
+                                                    <!-- <span class="animate-border border-ash ml-auto mr-auto tw-mt-60 tw-mb-80"></span> -->
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-12 col-lg-4 no-padding">
+                                            <ul>
+                                                <li class="tw-megamenu-title">
+                                                    <img src="/App/static/images/icon/services.jpg" alt=""
+                                                        height="300px" style="padding-left: 120px;">
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            <li class="nav-item"><a class="nav-link" href="{% url 'career' %}">Career</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{% url 'contact-us' %}">Contact Us</a></li>
+                            <li>
+
+                            </li>
+
+
+                            <!-- <li class="nav-item dropdown submenu-wrapper" > -->
+                            <li class=" nav-item dropdown tw-megamenu1-wrapper">
+                                <a class="nav-link" href="#" data-toggle="dropdown" style="width: 100%; ">
+                                    Account
+                                    <span class="tw-indicator"><i class="fa fa-angle-down"></i></span></a>
+
+                                <!-- tw-megamenu -->
+                                <div id="tw-megamenu1" class="dropdown-menu tw-mega1-menu1"  >
+                                <!-- <div class="dropdown-content2"> -->
+
+                                    <!-- change vaishali  line number 8-->
+                                    <div class="row" style="width: 300px; padding-left: 35px;"> 
+                                        <!-- in above div style="width: 250px; padding-left: 70px;" -->
+                                        <div class="col-md-12 col-lg-4 no-padding">
+                                            <dl>
+                                                <!-- <li class="tw-megamenu-title"> -->
+                                                    <!-- class of li below class="nav-item" -->
+                                                    <!-- class of a class="nav-link" below -->
+                                                <li><a href="{% url 'userprofile' %}">View Profile</a></li><br>
+                                                {% if user.is_authenticated %}
+
+                                                <li><a href="{% url 'logout' %}">
+                                                    <i class="fa fa-lock"></i>  Logout</a></li>
+                                                {% else %}
+                                                <li><a href="{% url 'login' %}"><i
+                                                            class="fa fa-lock"></i>  Login</a></li><br>
+                                                <li><a href="{% url 'signup' %}">Signup</a></li>
+                                                {% endif %}
+                                                
+                                                
+                                                
+
+                            </li>
+                            
+
+                        </dl><!-- End UL -->
+                    </div><!-- End Col -->
+                    </ul><!-- End Ul -->
+            </div><!-- End Col -->
+        </div><!-- End Row -->
+        </div> <!-- End of Mega menu -->
+        </li><!-- End MegaMenu -->
+        <!-- End Dropdown -->
+
+
+        </ul><!-- End Navbar Nav -->
+        </div><!-- End of navbar collapse -->
+        </nav><!-- End of Nav -->
+        </div><!-- End of Container -->
+        </div><!-- End tw head -->
+    </header><!-- End of Header area=-->
+
+    {% block body %}
+    {% endblock %}
+
+
+    <footer id="tw-footer" class="tw-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="tw-footer-info-box">
+
+                        <div class="footer-social-link">
+                            <h3>Follow us</h3>
+                            <p>Be always up to date with our latest offers! Like our Facebook Fanpage and follow us on
+                                other social media. </p>
+                            <ul>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div><!-- End Social link -->
+                    </div><!-- End Footer info -->
+
+                </div>
+                <!-- End Col -->
+                <div class="col-md-12 col-lg-8 footer-number">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-us">
+                                <div class="contact-icon">
+                                    <!-- <i class="icon icon-phone3"> -->
+                                        <img src="static/images/icon/phone.png" alt="">
+                                    <!-- </i> -->
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info">
+                                    <h3>+91 00000-00000 </h3>
+                                    <p>Enquiry</p>
+                                </div>
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                        <div class="col-md-6">
+                            <div class="contact-us contact-us-last">
+                                <div class="contact-icon">
+                                    <!-- <i class="icon icon-phone3">
+                                    </i> -->
+                                    <img src="static/images/icon/phone.png" alt="">
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info">
+                                    <h3>+91-00000-00000</h3>
+                                    <p>help & Support</p>
+                                </div><!-- End Contact Info -->
+                            </div><!-- End Contact Us -->
+                        </div><!-- End Col -->
+                    </div><!-- End Contact Row -->
+                </div><!-- End Col -->
+            </div><!-- End Widget Row -->
+        </div>
+        <!-- End Contact Container -->
+
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span>Copyright &copy; 2022 - 2023, Vaishali Jha, Rajat Sahu <a href="#"></a></span>
+                    </div>
+                    <!-- End Col -->
+                    <!-- <div class="col-md-6">
+                      <div class="copyright-menu">
+                          <ul>
+                              <li><a href="index-2.html">Home</a></li>
+                              <li><a href="blog.html">Blog</a></li>
+                              <li><a href="career.html">Career</a></li>
+                              <li><a href="contact-us.html">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>End col -->
+                </div><!-- End Row -->
+            </div><!-- End Copyright Container -->
+        </div>
+        <!-- End Copyright -->
+        <!-- Back to top -->
+        <div id="back-to-top" class="back-to-top">
+            <button class="btn btn-dark" title="Back to Top" style="display: block;">
+                <i class="fa fa-angle-up"></i>
+            </button>
+        </div>
+        <!-- End Back to top -->
+    </footer>
+    <!-- End Footer -->
+    {% for message in messages %}
+    <script>
+        // message alert
+
+        window.onload = function () {
+            alert('{{message}}')
+        }
+    </script>
+    {% endfor %}
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+    <!-- Javascripts File
+    =============================================================================-->
+
+    <!-- initialize jQuery Library -->
+    <script src="/static/js/jquery-2.0.0.min.js"></script>
+    <!-- Popper JS -->
+    <script src="/static/js/popper.min.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script src="/static/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="/static/js/owl-carousel.2.3.0.min.js"></script>
+    <!-- Waypoint -->
+    <script src="/static/js/waypoints.min.js"></script>
+    <!-- Counter Up -->
+    <script src="/static/js/jquery.counterup.min.js"></script>
+    <!-- Video Popup -->
+    <script src="/static/js/jquery.magnific.popup.js"></script>
+    <!-- WOW JS -->
+    <script src="/static/js/wow.min.js"></script>
+    <!-- SmoothScroll JS -->
+    <script src="/static/js/smoothscroll.js"></script>
+
+    <script src="/static/js/jquery.mixitup.js"></script>
+    <script src="/static/js/jquery.easing.1.3.min.js"></script>
+
+    <!-- Template Custom -->
+    <script src="/static/js/main.js"></script>
+</body>
+
+</html>

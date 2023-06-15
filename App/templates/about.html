@@ -1,0 +1,55 @@
+{% extends 'master.html' %}
+{% block body %}
+
+<div id="banner-area" class="banner-area tw-analysis-area" style="background-image:url(/static/images/banner/banner5.jpg)">
+    <div class="container">
+       <div class="row">
+          <div class="col-sm-12">
+             <div class="banner-heading">
+                <h1 class="banner-title">About Us</h1>
+                <ol class="breadcrumb">
+                   <li>Home</li>
+                   <li><a href="{% url 'about' %}">About Us</a></li>
+                </ol>
+             </div>
+          </div>
+          <!-- Col end -->
+       </div>
+       <!-- Row end -->
+    </div>
+    <!-- Container end -->
+ </div>
+ <!-- Banner area end -->
+
+
+ <section id="main-container" class="main-container">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-6">
+             <!-- <img src="images/about/about-us-1.jpg" alt="" class="img-fluid"> -->
+             <img src="/App/static/images/icon/services.jpg" alt="">
+          </div>
+          <!-- Col End -->
+          <div class="col-md-6">
+             <div class="tw-about-bin">
+                <h2 class="column-title">Intelligent & creative</h2>
+                <span class="animate-border tw-mb-40 tw-mt-20"></span>
+                <p>Company Tech is a website designing, website development and Customized Software Development company in India.We provides best effective solution to our client that is surely benefits to his/her organization.</p>
+                <p>Our focus is not industry specific as we strongly feel that only the expertise of our team matters in everything that we do. We are committed to create excellent interactive experiences while designing, executing and managing online strategies for your organizations and in turn improving ROI having thrust in complementing your brand</p>
+                
+                  <blockquote class="no-margin">
+                  <p>We provide time bound, cost effective and value added services for technology innovative business solutions that require specialized domain expertise. And our websites are W3C Certified, 100% SEO friendly websites,100% Bug free. Our team is well qualified, talented and experts in their domain.</p>
+                <footer>Effective solution to reach your audience and increase your sales</footer>
+                </blockquote>
+             </div>
+             <!-- About Bin End -->
+          </div>
+          <!-- Col End -->
+       </div>
+       <!-- Row end -->
+    </div>
+    <!-- Container end -->
+ </section>
+
+
+{% endblock %}

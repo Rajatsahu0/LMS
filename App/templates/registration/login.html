@@ -1,0 +1,70 @@
+{% extends 'master.html' %}
+{% block body %}
+
+
+    <section id="tw-contact-us" class="tw-contact-us bg-offwhite">
+        <div class="tw-about-bin">
+            <img src="static/images/about/angular.jpg" alt="" class="img-fluid float-right p-5">
+         <p class="text-justify">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="col">
+                    <div class="section-heading text-center">
+                        <h2>
+                        <small>Enter Your Details</small>
+                        Join Our <span>Team</span>
+                        </h2>
+                        <span class="animate-border border-ash ml-auto mr-auto tw-mt-20 tw-mb-40"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Row End -->
+
+        
+        <section id="form">
+            <div class="container">
+                <div class="col-sm-4 col-sm-offset-1">
+                        <div class="login-form section-heading text-left">
+                            <h2>
+                                Login<span> here </span>!
+
+                            </h2>
+                            
+                            <form action="" method="post">
+                                {% csrf_token %}
+                                <input class="form-control" type="text" name="username" id="" placeholder="username"><br>
+                                <input class="form-control" type="password" name="password" id="" placeholder="password">
+                                <a href="{% url 'password_reset' %}" style="float:right;">Forget Password ?</a>
+                                
+                                {% for message in messages %}
+                                {% if message.tags == 'error' %}
+                                    <p style="color:red;">{{message}}</p>
+                                {% elif message.tags == 'info' %}
+                                    {% comment %} <script>
+                                        window.onload = function() {
+                                            alert('{{message}}')
+                                        }
+                                    </script>  {% endcomment %}
+
+                                    <br><p style="color:red;">{{message}}</p><br>
+                                
+                                {% endif%}
+                                {% endfor %}
+                                    {% comment %} {% current_streak() %} {% endcomment %}
+                                <button class="btn btn-primary tw-mt-20" >Login</button><br>
+                                <hr>
+                                <!-- class="btn btn_default"  -->
+                                <span>Create new account. </span>
+                                <a href="{% url 'signup' %}"  style="float:right;">Signup</a>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </section>
+    <p>
+ <!-- Contact End -->
+</div>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'master.html' %}
+{% block body %}
+<section class="container">
+  <div class="row tw-mb-65">
+    <div class="col-md-4 wow fadeInLeft">
+      <br><br><br>
+      <h2 class="column-title text-md-right text-sm-center">Practice with &nbsp;&nbsp;&nbsp;<br> <span>Python-Compiler</span></h2>
+    </div>
+    <!-- Col End -->
+    <div class="col-md-7 ml-md-auto wow fadeInRight">
+      <p class="features-text text-black">The Python source code goes through the following to generate an executable
+        code :
+
+<br>
+        Step 1: The python compiler reads a python source code or instruction. Then it verifies that the instruction is
+        well-formatted, i.e. it checks the syntax of each line. If it encounters an error, it immediately halts the
+        translation and shows an error message.
+        <br> Step 2: If there is no error, i.e. if the python instruction or source code is well-formatted then the compiler
+        translates it into its equivalent form in an intermediate language called “Byte code”.
+        <br> Step 3: Byte code is then sent to the Python Virtual Machine(PVM) which is the python interpreter. PVM converts
+        the python byte code into machine-executable code. If an error occurs during this interpretation then the
+        conversion is halted with an error message.</p>
+    </div><!-- Col End -->
+  </div><!-- End Row 1 -->
+  <button style="width: 100%;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Python</a>
+    </nav>
+  </button>
+  <button style="width: 100%;">
+    <iframe style='max-width:100%; border: none; height: 600px; width: 100%;'
+      src=https://www.interviewbit.com/embed/snippet/253de27117c662d80949
+      title='Interviewbit Ide snippet/253de27117c662d80949' loading="lazy" allow="clipboard-write" allowfullscreen
+      referrerpolicy="unsafe-url"
+      sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation allow-popups-to-escape-sandbox"></iframe>
+  </button>
+</section>
+{% endblock %}
